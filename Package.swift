@@ -8,7 +8,7 @@ let package = Package(
     .library(name: "PangleAdapter", targets: ["PangleAdapter"]),
   ],
   dependencies: [
-    .package(url: "https://github.com/bytedance/AdsGlobalPackage", exact: "7.8.5.6"),
+    .package(url: "https://github.com/bytedance/AdsGlobalPackage", exact: "7.6.0-release.6"),
     .package(url: "https://github.com/ironsource-mobile/Unity-Mediation-iAds-Swift-Package", "9.2.0"..<"10.0.0"),
   ],
   targets: [
