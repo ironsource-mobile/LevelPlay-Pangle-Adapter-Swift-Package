@@ -30,7 +30,7 @@ dependencies: [
 
 This package includes:
 - LevelPlay iOS SDK (Unity Mediation SDK)
-- Pangle SDK v7.8.5.6
+- Pangle SDK
 
 ## Documentation
 
