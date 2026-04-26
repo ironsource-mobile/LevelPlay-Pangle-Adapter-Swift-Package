@@ -8,7 +8,7 @@ let package = Package(
     .library(name: "PangleAdapter", targets: ["PangleAdapter"]),
   ],
   dependencies: [
-    .package(url: "https://github.com/bytedance/AdsGlobalPackage", exact: "8.0.0.6"),
+    .package(url: "https://github.com/bytedance/AdsGlobalPackage", exact: "8.0.0.7"),
     .package(url: "https://github.com/ironsource-mobile/Unity-Mediation-iAds-Swift-Package", "9.2.0"..<"10.0.0"),
   ],
   targets: [
@@ -22,8 +22,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "PangleAdapterSDK",
-      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/pangle-adapter/5.20.0/ISPangleAdapter5.20.0.zip",
-      checksum: "53eccacb1296e114e18de9e920736e75dc1710e2a26761227aab802ce6801d9e"
+      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/pangle-adapter/5.21.0/ISPangleAdapter5.21.0.zip",
+      checksum: "eec971f673936d9702e4c36a9b0e9dea37061b91708c1e6aed4a8f50893f31e4"
     )
   ]
 )
