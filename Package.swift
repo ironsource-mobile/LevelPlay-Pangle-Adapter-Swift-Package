@@ -22,8 +22,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "PangleAdapterSDK",
-      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/pangle-adapter/5.41.0/ISPangleAdapter5.41.0.zip",
-      checksum: "506b41a25637c169ff639c1f3a300bacbb537123a35e12dd82df225c5bafa505"
+      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/pangle-adapter/5.42.0/ISPangleAdapter5.42.0.zip",
+      checksum: "e9fd7512efb1f660d05f46c34a2b94f7b3d2b98a402fe682beedc5609b7c6df0"
     )
   ]
 )
