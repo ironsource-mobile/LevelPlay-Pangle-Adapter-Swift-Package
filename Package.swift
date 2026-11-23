@@ -8,7 +8,7 @@ let package = Package(
     .library(name: "PangleAdapter", targets: ["PangleAdapter"]),
   ],
   dependencies: [
-    .package(url: "https://github.com/bytedance/AdsGlobalPackage", exact: "8.4.0-release.8"),
+    .package(url: "https://github.com/bytedance/AdsGlobalPackage", exact: "8.4.0-release.9"),
     .package(url: "https://github.com/ironsource-mobile/LevelPlay-Swift-Package", "9.2.0"..<"10.0.0"),
   ],
   targets: [
@@ -22,8 +22,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "PangleAdapterSDK",
-      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/pangle-adapter/5.42.0/ISPangleAdapter5.42.0.zip",
-      checksum: "e9fd7512efb1f660d05f46c34a2b94f7b3d2b98a402fe682beedc5609b7c6df0"
+      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/pangle-adapter/5.43.0/ISPangleAdapter5.43.0.zip",
+      checksum: "0d4d06caab1e284253875db4cc04ff1553ba55671a464124392a1dba8f74cccc"
     )
   ]
 )
